@@ -309,43 +309,43 @@ h2,
 }
 
 .card-food1 .row .card:hover .one{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .two{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .three{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .four{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .five{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .six{
     z-index: 999;
 }
 .card-food1 .row .card:hover .seven{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .eight{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .nine{
-    z-index: 999;
+    z-index: 995;
 }
 .card-food1 .row .card:hover .ten{
-    z-index: 999;
+    z-index: 995;
 }
 
 
 
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:767px){
     .card-food1 .row .card img{
-        height: 310px;
+        height: 250px;
     }
     .card-food1 .row .card:hover img{
         transform: scale(1);
