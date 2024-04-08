@@ -19,6 +19,36 @@ html{
     display: inline-flex;
     position: relative;
 }
+.guide{
+    position: absolute;
+    color:#263473;
+    z-index: 999;
+    right: 5rem;
+   top:0.7rem;
+   align-items: center;
+   width: max-content;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+.guide i{
+   font-weight: 600;
+   position: relative;
+   top:2px;
+   left: 5px;    
+}
+
+@media screen and (max-width: 767px){
+    .guide{
+        display: block;
+    }
+}
+@media screen and (min-width:768px) and (max-width: 991px){
+    .guide{
+        display: block;
+        right:4.5rem;
+    }
+}
 
 .nav-item .dropdown .dropdown-toggle{
     background-color: #f9f9f9;
